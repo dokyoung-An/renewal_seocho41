@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 7.0.10/20025
 // Filename: seocho ??? 41.ggsk
-// Generated 2024-04-09T10:46:36
+// Generated 2024-04-09T11:29:14
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_roomchoice', 2, false, { ignoreInState: 0  });
@@ -7146,6 +7146,7 @@ function pano2vrSkin(player,base) {
 		}
 		el.ggFilter = [];
 		el.ggFilter[0] = "가구있음";
+		el.ggFilter[1] = "메인";
 		el.ggId="\uac00\uad6c\uc788\uc74c-18A";
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
 		el.ggVisible=false;
@@ -7360,6 +7361,7 @@ function pano2vrSkin(player,base) {
 		}
 		el.ggFilter = [];
 		el.ggFilter[0] = "가구없음";
+		el.ggFilter[1] = "메인";
 		el.ggId="\uac00\uad6c\uc5c6\uc74c-18A";
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1,def:'' };
 		el.ggVisible=false;
